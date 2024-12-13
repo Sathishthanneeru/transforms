@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            border: 2px solid black;
+            width: 100px;
+            color: white;
+            background-color: black;
+            border-radius: 10px;
+            margin: 30px auto;
+        
+            
+        }
+        .div1:hover{
+            transform: skew(45deg);
+        }
+        #transilate:checked ~ .div1{
+            transform: none;
+
+        }
+        #rotate:checked ~ .div1{
+            transform: rotate(10deg);
+
+        }
+        #rotate:checked ~ .div1{
+            transform: rotate(45deg);
+
+        }
+        #rotate3d:checked ~ .div1{
+            transform: rotate3d(1, 2, 1, 45deg);
+
+        }
+        #rotate3d:checked ~ .div1{
+            transform: rotate3d(0, 1, 0, 60deg);
+
+        }
+        #ritateX:checked ~ .div1{
+            transform: rotateX(45deg);
+
+        }
+        #rotateX:checked ~ .div1{
+            transform: rotateX(100deg);
+
+        }
+        #rotateY:checked ~ .div1{
+            transform: rotateY(45deg);
+
+        }
+        #rotateY:checked ~ .div1{
+            transform: rotateY(80deg);
+            
+
+        }
+        #rotateZ:checked ~ .div1{
+            transform: rotateZ(45deg);
+
+        }
+        #rotateZ:checked ~ .div1{
+            transform: rotateZ(90deg);
+
+        }
+        #skew:checked ~ .div1{
+            transform: skew(20deg,20deg);
+
+        }
+        .sec{
+            border: 2px solid black;
+        }
+        #skew:checked ~ .div1{
+            transform: skew(30deg,30deg);
+
+        }
+        #skewX:checked ~ .div1{
+            transform: skewX(30deg);
+
+        }
+        #skewX:checked ~ .div1{
+            transform: skewX(40deg);
+
+        }
+        #rotate3d:checked ~ .div1{
+            transform: rotate3d(1, 2, 1, 45deg);
+
+        }
+        #rotate3d:checked ~ .div1{
+            transform: rotate3d(0, 1, 0, 60deg);
+
+        }
+        #ritateX:checked ~ .div1{
+            transform: rotateX(45deg);
+
+        }
+        #rotateX:checked ~ .div1{
+            transform: rotateX(100deg);
+
+        }
+        #skewY:checked ~ .div1{
+            transform: skewY(30deg);
+
+        }
+        #skewY:checked ~ .div1{
+            transform: skewY(40deg);
+            
+
+        }
+        #translate:checked ~ .div1{
+            transform: translate(20px,10px);
+
+        }
+        #translate:checked ~ .div1{
+            transform: translate(20px,20px);
+
+        }
+        #skew:checked ~ .div1{
+            transform: skew(20deg,20deg);
+
+        }
+        .sec{
+            border: 2px solid black;
+        }
+     
+    </style>
+</head>
+<body>
+    <section class="sec">
+        
+
+        <input type="radio" id="none" name="transforms">transform: none;<br>
+        <input type="radio" id="rotate" name="transforms">transform: rotate(10deg);<br>
+        <input type="radio" id="rotate" name="transforms">transform: rotate(45deg);<br>
+        <input type="radio" id="rotate3d" name="transforms">transform: rotate3d(1, 2, 1, 45deg);<br>
+        <input type="radio" id="rotate3d" name="transforms">transform: rotate3d(0, 1, 0, 60deg);<br>
+        <input type="radio" id="rotateX" name="transforms">transform: rotateX(45deg);<br>
+        <input type="radio" id="rotateX" name="transforms">transform: rotateX(100deg);<br>
+        <input type="radio" id="rotateY" name="transforms">transform: rotateY(45deg);<br>
+        <input type="radio" id="rotateY" name="transforms">transform: rotateY(80deg);<br>
+        <input type="radio" id="rotateZ" name="transforms">transform: rotateZ(45deg);<br>
+        <input type="radio" id="rotateZ" name="transforms">transform: rotateZ(90deg);<br>
+        <input type="radio" id="skew" name="transforms">transform: skew(20deg,20deg);<br>
+        <input type="radio" id="skew" name="transforms">transform: skew(30deg,30deg);<br>
+        <input type="radio" id="skewX" name="transforms">transform: skewX(30deg);<br>
+        <input type="radio" id="skewX" name="transforms">transform: skewX(40deg);<br>
+        <input type="radio" id="skewY" name="transforms">transform: skewY(30deg);<br>
+        <input type="radio" id="skewY" name="transforms">transform: skewY(40deg);<br>
+        <input type="radio" id="translate" name="transforms">transform: translate(20px,10px);<br>
+        <input type="radio" id="translate" name="transforms">transform: translate(20px,20px);<br>
+        <input type="radio" id="scale" name="transforms">transform: scale(2,2);<br>
+        <input type="radio" id="scale" name="transforms">transform: scale(2.5,3);<br>
+        <input type="radio" id="scaleX" name="transforms">transform: scaleX(1.5);<br>
+        <input type="radio" id="scaleX" name="transforms">transform: scaleX(50%);<br>
+        <input type="radio" id="scaleY" name="transforms">transform: scaleY(1.5);<br>
+    <div class="div1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis eaque quisquam.</div>
+</section>
+</body>
+</html>
